@@ -7,7 +7,7 @@
     <style>
         @font-face {
             font-family: 'fifaks10dev1';
-            src: url('https://github.com/bahr-projects/bahr-projects.github.io/raw/refs/heads/main/woh/iframes/Fifaks10Dev1.ttf') format('truetype');
+            src: url('Fifaks10Dev1.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
@@ -18,14 +18,14 @@
             padding: 0;
         }
 
-        body {
+        html, body {
             background: transparent !important;
             font-family: 'fifaks10dev1', 'Courier New', monospace;
             color: #ffffff;
             padding: 15px;
-            overflow-y: scroll;
-            -ms-overflow-style: none;
+            overflow-y: auto;
             scrollbar-width: none;
+            -ms-overflow-style: none;
         }
 
         body::-webkit-scrollbar {
@@ -47,7 +47,7 @@
             border: 2px solid #ffd48a;
             border-radius: 0;
             padding: 8px 14px;
-            height: 48px;
+            height: 50px;
             box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.1), inset -2px -2px 0 rgba(0, 0, 0, 0.4);
             image-rendering: pixelated;
             transition: filter 0.2s;
@@ -64,7 +64,7 @@
         .server-info {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             height: 28px;
         }
 
@@ -78,6 +78,7 @@
         }
 
         .server-name {
+            font-size: 20px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -87,7 +88,7 @@
         .server-stats {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             color: #f0f0f0;
             height: 28px;
         }
@@ -108,9 +109,7 @@
     </style>
 </head>
 <body>
-
-    <div id="serversContainer" class="server-list">
-    </div>
+    <div id="serversContainer" class="server-list"></div>
 
     <script>
         const servers = [
