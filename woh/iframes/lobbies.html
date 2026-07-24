@@ -7,7 +7,7 @@
     <style>
         @font-face {
             font-family: 'fifaks10dev1';
-            src: url('Fifaks10Dev1.ttf') format('truetype');
+            src: url('https://github.com/bahr-projects/bahr-projects.github.io/raw/refs/heads/main/woh/iframes/Fifaks10Dev1.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
@@ -23,7 +23,13 @@
             font-family: 'fifaks10dev1', 'Courier New', monospace;
             color: #ffffff;
             padding: 15px;
-            overflow-y: auto;
+            overflow-y: scroll;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
         }
 
         .server-list {
@@ -40,13 +46,13 @@
             background: rgba(139, 69, 19, 0.75);
             border: 2px solid #ffd48a;
             border-radius: 0;
-            padding: 8px 12px;
-            height: 44px;
+            padding: 8px 14px;
+            height: 48px;
             box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.1), inset -2px -2px 0 rgba(0, 0, 0, 0.4);
             image-rendering: pixelated;
             transition: filter 0.2s;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: 1px;
         }
 
@@ -59,13 +65,13 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            height: 24px;
+            height: 28px;
         }
 
         .server-logo {
-            height: 24px;
+            height: 28px;
             width: auto;
-            max-width: 24px;
+            max-width: 28px;
             object-fit: contain;
             image-rendering: pixelated;
             display: block;
@@ -83,18 +89,18 @@
             align-items: center;
             gap: 10px;
             color: #f0f0f0;
-            height: 24px;
+            height: 28px;
         }
 
         .server-players {
-            font-size: 15px;
+            font-size: 17px;
             color: #c0c0c0;
         }
 
         .server-lock {
-            height: 16px;
+            height: 18px;
             width: auto;
-            max-width: 16px;
+            max-width: 18px;
             object-fit: contain;
             image-rendering: pixelated;
             display: block;
