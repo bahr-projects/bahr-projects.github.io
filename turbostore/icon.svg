@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="161" viewBox="0 0 166 161" preserveAspectRatio="xMidYMid meet">
+	<g id="icon">
+		<path d="M25,70 C25,34 51,6 83,6 C115,6 141,34 141,70" fill-rule="evenodd" style="fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-width:11;" />
+		<path d="M0,67 C0,66 -0,65 -0,64 C-0,56 6,50 14,50 L152,50 C153,50 153,50 154,50 C162,52 167,59 166,67 L149,149 C148,156 142,161 135,161 L31,161 C24,161 18,156 17,149 L0,67 ZM77,87 C77,82 80,77 83,77 L83,77 C86,77 89,82 89,87 L89,123 C89,129 86,133 83,133 L83,133 C80,133 77,129 77,123 L77,87 ZM109,87 C109,82 112,77 115,77 L115,77 C118,77 121,82 121,87 L121,123 C121,129 118,133 115,133 L115,133 C112,133 109,129 109,123 L109,87 ZM45,87 C45,82 47,77 51,77 L51,77 C54,77 57,82 57,87 L57,123 C57,129 54,133 51,133 L51,133 C47,133 45,129 45,123 L45,87 Z" fill-rule="evenodd" style="fill:#FFFFFF;" />
+	</g>
+</svg>
