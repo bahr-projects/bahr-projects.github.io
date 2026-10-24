@@ -1,9 +1,3 @@
-// Name: Assets Store
-// ID: twStore
-// Description: Built-in store for costumes, sounds, sprites, scripts and extensions
-// By: You
-// Licence: MIT
-
 (function (Scratch) {
   'use strict';
   if (!Scratch.extensions.unsandboxed) {
